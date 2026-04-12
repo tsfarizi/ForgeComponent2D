@@ -1,12 +1,13 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "ForgeComponent2D.h"
+#include "MaterialExpressions/MaterialExpressionForgeMaterial.h"
 
 #define LOCTEXT_NAMESPACE "FForgeComponent2DModule"
 
 void FForgeComponent2DModule::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	// Material expressions auto-register via UCLASS and MenuCategories
 }
 
 void FForgeComponent2DModule::ShutdownModule()
@@ -16,5 +17,5 @@ void FForgeComponent2DModule::ShutdownModule()
 }
 
 #undef LOCTEXT_NAMESPACE
-	
+
 IMPLEMENT_MODULE(FForgeComponent2DModule, ForgeComponent2D)
