@@ -28,11 +28,12 @@ public class ForgeComponent2D : ModuleRules
 				"Core",
 				"RenderCore",
 				"Engine",
+				"UMG",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
-			
-		
+
+
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -40,6 +41,8 @@ public class ForgeComponent2D : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+				"UMG",
+				"MaterialShaderQualitySettings",
 				// ... add private dependencies that you statically link with here ...
 			}
 			);

@@ -2,7 +2,6 @@
 
 #include "MaterialExpressions/MaterialExpressionForgeMaterial.h"
 #include "MaterialCompiler.h"
-#include "PropertyEditorModule.h"
 
 UMaterialExpressionForgeMaterial::UMaterialExpressionForgeMaterial(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
